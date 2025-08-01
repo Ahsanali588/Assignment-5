@@ -66,8 +66,8 @@
     }
     };
    
-   print(world['Pakistan']!['capitalCity']);
-   print(world['Pakistan']!['currency']);
+   print(world['Pakistan']['capitalCity']);
+   print(world['Pakistan']['currency']);
 }
 
 
