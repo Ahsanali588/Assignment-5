@@ -130,10 +130,10 @@
    // 14th
    
    List<int> numbers = [6,2,9,3,1,8,4,7,5];
-   List<int> sortedList = List.from(numbers);
+   List<int> newList = [...numbers];
    
-   sortedList.sort();
-   
+   newList.sort();
+   print(numbers);
    print("Numbers: $sortedList");
    
 }
